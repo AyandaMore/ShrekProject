@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: "CustomFont" ;
+    src: url("shrekfont-webfont.woff");
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'CustomFont', sans-serif;
+}
+
+section
+{
+    padding: 100px;
+}
+
+.banner
+{
+    background-image: url('shrBack.jpg');
+    background-size: cover;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5x;
+    background: yellowgreen;
+}
+
+
+
+header .logo
+{
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: dotted;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+header ul
+{
+    position: relative;
+    display: flex;
+}
+
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: green;
+    text-decoration: none;
+}
+
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;    
+}
+
+.heading h2
+{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contentBx
+{
+    size: 100px;
+    padding-right: 50px;
+}
+
+.contentBx p
+{
+    margin-right: 50%;
+}
+
+.characters
+{
+    background-color: turquoise;
+    color: black;
+}
+
+.characters .contentC
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: row;
+    flex-direction: row;
+}
+
+.characters .contentC .charBx
+{
+    padding: 40px 20px;
+    max-width: 300px;
+    background: white;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;  
+}
+
+.movies
+{
+    background-color: peachpuff;
+    color: black;
+}
+
+.movies .contentM
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: row;
+    flex-direction: row;  
+}
+
+.movies .contentM .movieBx
+{
+    padding: 50px 20px;
+    max-width: 500px;
+    background: palegreen;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;    
+}
+
+.funfacts
+{
+    background-color: gray;
+    color: white;
+}
+
+.funfacts .facts .pics
+{
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: row-gap;
+}
+
+.funfacts .facts .pics .pic1
+{
+    width:200px;
+    height: 300px;
+}
